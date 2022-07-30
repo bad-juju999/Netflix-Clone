@@ -1,0 +1,41 @@
+body {background-color: #000000;}
+
+.title{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.centerBody {
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #5f5e5e; 
+    border: 1.5px solid white;
+    
+}
+
+.centerBody:hover{
+    color: white;
+    border: 1.5px solid white;
+    width: 900px;
+    
+}
+
+.textbox {
+    width: 150px;
+    border: 1.5px solid #5f5e5e;
+    padding: 5px;
+    margin: 5px;
+    color:#5f5e5e;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textbox:hover {
+    color: white;
+    border: 1.5px solid white;
+}
