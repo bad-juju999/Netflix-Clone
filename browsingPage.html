@@ -5,28 +5,59 @@
     <meta charset="UTF-8">
     <title> Netflix </title>
     <link rel="icon" href="/images/netflixFavicon.jpg" type="image/x-icon">
-    <style>
-        li {display: inline;}
-    </style>
+    <link rel="stylesheet" href="BrowsingPageStyle.css">
 </head>
 
 <body>
-    <img src="/images/netflixLogo.avif" alt="Netflix Logo" width="150" >
+    <div class="inline">
+        <a href="home_page.html"> 
+            <img src="/images/netflixLogo.avif" alt="Netflix Logo" width="100" >
+        </a>
 
+        <ul> 
+            <li><a href="browsingPage.html">Home</a></li>
+            <li><a href="tvShows.html">TV Shows</a></li>
+            <li><a href="mylist.html">My List</a></li>
+        </ul>
+    
+        <ul class="menuSpacing">
+            <li><a href="search.html">Search</a></li>
+            <li><a href="notifications.html">Notifications</a></li>
+            <li><a href="home_page.html">Profiles</a></li>
+        </ul>
+    </div>  
+    <!--future edit: make the menu sticky to top-->
 
-    <ul>
-        <li><a href="browsingPage.html">Home</a></li>
-        <li><a href="tvShows.html">TV Shows</a></li>
-        <li><a href="mylist.html">My List</a></li>
-<br>
-<!--neeeds br to be horizontal. i think these below shouldnt be new pages, but somehow a funtion on same page. these are placeholders for now.-->
-        <li><a href="search.html">Search</a></li>
-        <li><a href="notifications.html">Notifications</a></li>
-        <li><a href="profileManager.html">Profiles</a></li>
+    <div class="card-container">
+        <!--<p>Your List</p> needa make this on top of cards, may need another div to avoid the card container css, which line in css is making everythin inline??-->
+        <div class="card">
+            <p>Hunter X Hunter</p>
+           
+        </div>
+        <div class="card">
+            <p>Uncharted</p>
+            
+        </div>
+        <div class="card">
+            <p>Show #3</p>
+        </div>
 
-    </ul>
+        <div class="card">
+            <p>Show #4</p>
+        </div>
 
+        <div class="card">
+            <p>Show #5</p>
+        </div>
 
+        <div class="card">
+            <p>Show #6</p>
+        </div>
+
+        <div class="card">
+            <p>Show #7</p>
+        </div>
+    </div>
 
 </body>
 
