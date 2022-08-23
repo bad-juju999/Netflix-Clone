@@ -1,0 +1,33 @@
+body{
+    background-color: #000000;
+    text-align: center;
+}
+
+hr {
+    background-color: white;
+}
+
+.bg-light {
+    background-color: black !important;
+}
+
+a{
+    color: white;
+    font-size: 17px;
+}
+
+a:hover{
+    color:grey;
+}
+
+
+p {
+    color:white;
+    background-color: darkgrey;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    color:red;
+}
+
